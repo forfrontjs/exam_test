@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 1200px;
+}
+.yellov_line{
+    background:  #FADF00;
+    width: 450px;
+    height: 20px;
+    position: relative;
+    top: -20px;
+    left: 23px;
+    z-index: -1;
+
+}
+
+section h3{
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 44px;
+    margin-top: 101px;
+    z-index: 5;
+}
+
+section{
+    padding-left: 260px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+    column-gap: 35px;
+    width: 100%;
+}
+
+.promotion_card{
+    width: 400px;
+    height: 364px;
+}
+
+.promotion_top h4{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 23px;
+    color: #30922F;
+
+}
+.promotion_top{
+
+    display: flex;
+    justify-content: space-between;
+}
+.card_top{
+    width: 73px;
+    height: 66px;
+    background-color: #30922F;
+    border: none;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 800;
+    color: white;
+    text-align: end;
+    display: flex;
+    align-items: center;
+}
+
+.promotion_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.promotion_bottom p:first-child{
+    font-size: 22px;
+    color: #30922F;
+    line-height: 23px;
+    font-weight: 700;
+}
+
+.red_line{
+    width: 48px;
+    height: 1px;
+    background-color: red;
+}
